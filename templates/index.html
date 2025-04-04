@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css')}}">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="top-banner">
+        <h1>Welcome to the Random Button</h1>
+        <p>click on the button to see what number you randomly get</p>
+    </div>
+    <div class="application">
+        <div class="'box">
+
+            <button onclick="getNumber()">Generate Random</button>
+            <p id="random"></p>
+            <p id="result"></p>
+
+        </div>
+    </div>
+
+    <script src="/static/script.js"></script>
+</body>
+</html>
