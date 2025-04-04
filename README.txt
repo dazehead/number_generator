@@ -24,3 +24,19 @@ sudo usermod -aG docker ec2-user
 
 # Apply the group change now (or just log out/in after this)
 newgrp docker
+
+-----------------------------------------------------
+if copying the flask app from git then install git
+sudo dnf update -y
+sudo dnf install git -y
+
+
+git clone https://github.com/yourusername/your-flask-repo.git
+cd your-flask-repo
+---------------------------------------------------------
+buidl the docker
+docker build -t flask-aws-app .
+docker run -d -p 80:5000 flask-aws-app
+
+----------------------------------------------------------
+now type in the ip address and it should be running
