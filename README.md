@@ -9,4 +9,4 @@
 5. Python
 6. Docker
 
-[GO TO THE WEBSITE](ec2-3-83-105-254.compute-1.amazonaws.com)
+[GO TO THE WEBSITE](3.83.105.254)
