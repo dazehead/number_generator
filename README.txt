@@ -49,4 +49,5 @@ must have https://learn.microsoft.com/en-us/sql/connect/odbc/download-odbc-drive
 
 __________________________________________________________________________________________________________
 when updating the image
-docker build -t number_generator:latest .
+docker build -t number_generator .
+docker run -p 5000:5000 number_generator
