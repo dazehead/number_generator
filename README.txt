@@ -45,6 +45,7 @@ now type in the ip address and it should be running
 
 __________________________________________________________________________________________________________
 must have https://learn.microsoft.com/en-us/sql/connect/odbc/download-odbc-driver-for-sql-server?view=sql-server-ver16 driver
+https://go.microsoft.com/fwlink/?linkid=2307162
 
 
 __________________________________________________________________________________________________________

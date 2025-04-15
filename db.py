@@ -14,7 +14,7 @@ class Database:
     def get_engine(self):
         url = (
             f"mssql+pyodbc://{self.user}:{self.password}@{self.host}:{self.port}/{self.db}?driver={self.driver}"
-            "&Encrypt=yes&TrustServerCertificate=yes"
+            "&TrustServerCertificate=yes"
         )
         return create_engine(url, pool_pre_ping=True, fast_executemany=True)
 
