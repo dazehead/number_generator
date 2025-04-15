@@ -18,7 +18,6 @@ def run_script():
     #This picks a random number and returns it in json format
     num_generator.get_random_number()
     data = database.get_table_from_db()
-    print(data)
     return jsonify(data[0])
 
 

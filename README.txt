@@ -50,5 +50,11 @@ https://go.microsoft.com/fwlink/?linkid=2307162
 
 __________________________________________________________________________________________________________
 when updating the image
+docker ps
+docker stop <container_id>
 docker build -t number_generator .
-docker run --env-file .env -p 5000:5000 number_generator
+docker run --env-file .env -p 80:5000 number_generator
+
+
+
+
