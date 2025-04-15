@@ -1,6 +1,9 @@
 import os
 from sqlalchemy import create_engine, text
 import pandas as pd
+import pyodbc
+print(pyodbc.drivers())
+
 
 class Database:
     def __init__(self):

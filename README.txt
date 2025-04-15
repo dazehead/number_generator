@@ -1,5 +1,5 @@
-docker build -t number-generator-app .
-docker run -p 5000:5000 number-generator-app
+docker build -t number-generator .
+docker run -p 5000:5000 number-generator
 ------------------------------------------------
 after creating the instance
 
