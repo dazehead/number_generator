@@ -1,6 +1,7 @@
-# A web application that generates a random number and keeps track of how many clicks are pressed in its liftime
+# Number Generator
+ A web application that generates a random number and keeps track of how many clicks are pressed in its liftime
 
-This projects utilized
+## This projects utilized
 1. html/css
 2. Flask
 3. Javascript
