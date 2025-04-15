@@ -40,3 +40,8 @@ docker run -d -p 80:5000 flask-aws-app
 
 ----------------------------------------------------------
 now type in the ip address and it should be running
+
+
+
+__________________________________________________________________________________________________________
+must have https://learn.microsoft.com/en-us/sql/connect/odbc/download-odbc-driver-for-sql-server?view=sql-server-ver16 driver
