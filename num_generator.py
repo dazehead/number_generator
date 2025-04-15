@@ -7,7 +7,6 @@ class Num_Generator:
         self.database = database
         data = self.database.get_table_from_db()
         self.count = data[0].get('counter')
-        print(self.count)
 
     def get_random_number(self):
         '''generates a random number, saves new data and calls function to update count'''
