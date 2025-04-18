@@ -1,26 +1,29 @@
+<!-- templates/index.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css', v=2)}}">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Vaporwave Number Generator</title>
+    <!-- Retro Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Your Vaporwave CSS -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css', v=2) }}">
 </head>
 <body>
     <div class="top-banner">
-        <h1>Go ahead click the button you wont</h1>
-        <p>click on the button to be given a random number I also keep track of how many times the button has been clicked over its lifetime!</p>
+        <h1>Go ahead, click the button!</h1>
+        <p>Get a random number and see how many times it’s been pressed.</p>
     </div>
-    <div class="application">
-        <div class="'box">
 
+    <div class="application">
+        <div class="box">
             <button onclick="getNumber()">Click Me!</button>
             <p id="random"></p>
             <p id="result"></p>
-
         </div>
     </div>
 
-    <script src="/static/script.js"></script>
+    <script src="{{ url_for('static', filename='script.js', v=3) }}"></script>
 </body>
 </html>
